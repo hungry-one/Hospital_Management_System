@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #303641;
+}
+
+#container-login,
+#container-register {
+	max-width: 25rem;
+	margin: 4rem auto;
+	background-color: aliceblue;
+	border-radius: 0.4rem;
+	display: flex;
+	padding: 5rem 1rem;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+#title {
+	color: #191a19;
+	font-size: 3.2rem;
+	font-weight: 600;
+	margin-top: -3rem;
+	padding-bottom: 2rem;
+}
+
+#title .material-icons {
+	font-size: 2.5rem;
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.input .input-addon {
+	margin-right: 1.2rem;
+	color: #191a19;
+}
+
+.input .input-addon .material-icons {
+	font-size: 1.7rem;
+	margin-top: 8px;
+}
+
+.remember-me {
+	color: #6c4a4a;
+}
+
+.remember-me span {
+	font-size: 1.2rem;
+	padding: 1rem 0.4rem;
+}
+
+.input input {
+	font-size: 1.4rem;
+	border: 2px solid #303641;
+	padding: 0.5rem;
+	border-radius: 0.6rem;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.input input:focus {
+	border: 2px solid #850722;
+}
+
+.btn {
+	text-transform: uppercase;
+	outline: 0;
+	background: #4caf50;
+	width: 80%;
+	border: 0;
+	padding: 1rem;
+	color: #ffffff;
+	font-size: 1.2rem;
+	margin: 1.3rem auto;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.btn-sec {
+	text-transform: uppercase;
+	outline: 0;
+	background: #a50707;
+	/* width: 80%; */
+	border: 0;
+	padding: 0.4rem 0.7rem;
+	color: #ffffff;
+	font-size: 0.7rem;
+	margin: 1.3rem auto;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
